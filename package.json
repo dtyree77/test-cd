@@ -14,8 +14,6 @@
     "jade": "~1.3.0",
     "less-middleware": "1.0.x",
     "morgan": "~1.0.0",
-    "okapi": "0.0.8",
-    "pg": "^3.4.1",
     "static-favicon": "~1.0.0"
   }
 }
