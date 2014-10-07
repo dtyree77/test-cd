@@ -15,12 +15,24 @@ services:
           MYSQL: 3306
         services:
           - postgres
-      heroku:
-        app: foaming-kitten
+      herokudpl:
+        api_key: enc:GGoKv8rMo/vntT+n03j3l5ggvVD9hVfR7UlZ8nruzbLLfA2wKKNJ7lpMNE2w\nXJC2eQ+hZBRiCJzMnaL3QPth3IVILVqY2aIoVKVMNJi3FrLeB3NyN8M6GfFy\nbklqBsQI9HNO3irqQhhHetJyAQnjfdbZMLaUhlh2+vPD17jW5QgFpFHJASoM\nzXla7MYMLlWShBOYRdlOKqsdqU7cO4/JGp/KCqQa+WLMpbzBQJ69/AmwdxP4\ndgjzAFHx+HQ70GvYWQxUkmy9dERcgV/HmUWka9kc7upuDPhvOF16EwgOKdWT\niT0BRM5PzQzU3/eFSu6S4qd8jVKqYvtfl0BrCPezFg==
+        app: foaming-horse
+      openshiftdpl:
+        user: crobe03@ca.com 
+        password: enc:ue6w2Rum8eaU1bT1DzZG+49O472jz43FUURzUOLpjpCAjCtR4UqxMFqjTdAX\ntR/9bhHXhCw+7RbNwDjbZVk/wDx4VwaYDtRPgT8Dh0cIVavtF7KgL59r8L0y\nTCC10VrH5oR03IFBgvz7BMLckw2FK2mugG8J7Vks2MiQtkhfiqRSw+u8U9td\nPtxkpTUV2JqLbs/kOo8kAZn0yyogkrz816XxHdjzz0TuGMgJvTC/irglA0Wf\nG18C8i5IA9PtB3fPOMTU2Q6rNAys3H73T+MZhey4eXMlkG9DD28/tbTJZrnG\nbt3Sza41uo6I04uv+DZb14gjk6v7XrwXjTlhnOVDaQ==
+        domain: crobe03 
+        app: thai         
   - backend:
       language: nodejs
       propeller:
         instances: 1
-      heroku:
-        app: bouncing-kitten
+      herokudpl:
+        api_key: enc:GGoKv8rMo/vntT+n03j3l5ggvVD9hVfR7UlZ8nruzbLLfA2wKKNJ7lpMNE2w\nXJC2eQ+hZBRiCJzMnaL3QPth3IVILVqY2aIoVKVMNJi3FrLeB3NyN8M6GfFy\nbklqBsQI9HNO3irqQhhHetJyAQnjfdbZMLaUhlh2+vPD17jW5QgFpFHJASoM\nzXla7MYMLlWShBOYRdlOKqsdqU7cO4/JGp/KCqQa+WLMpbzBQJ69/AmwdxP4\ndgjzAFHx+HQ70GvYWQxUkmy9dERcgV/HmUWka9kc7upuDPhvOF16EwgOKdWT\niT0BRM5PzQzU3/eFSu6S4qd8jVKqYvtfl0BrCPezFg==
+        app: bouncing-horse
+      openshiftdpl:
+        user: crobe03@ca.com 
+        password: enc:ue6w2Rum8eaU1bT1DzZG+49O472jz43FUURzUOLpjpCAjCtR4UqxMFqjTdAX\ntR/9bhHXhCw+7RbNwDjbZVk/wDx4VwaYDtRPgT8Dh0cIVavtF7KgL59r8L0y\nTCC10VrH5oR03IFBgvz7BMLckw2FK2mugG8J7Vks2MiQtkhfiqRSw+u8U9td\nPtxkpTUV2JqLbs/kOo8kAZn0yyogkrz816XxHdjzz0TuGMgJvTC/irglA0Wf\nG18C8i5IA9PtB3fPOMTU2Q6rNAys3H73T+MZhey4eXMlkG9DD28/tbTJZrnG\nbt3Sza41uo6I04uv+DZb14gjk6v7XrwXjTlhnOVDaQ==
+        domain: crobe03 
+        app: chi        
 
