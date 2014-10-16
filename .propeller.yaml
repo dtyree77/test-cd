@@ -1,4 +1,4 @@
-repo: http://github.com/dtyree77/test-cd
+repo: http://github.com/croteb/test-cd
 services:
   - frontend:
       install_script:
@@ -18,6 +18,7 @@ services:
       herokudpl:
         api_key: enc:GGoKv8rMo/vntT+n03j3l5ggvVD9hVfR7UlZ8nruzbLLfA2wKKNJ7lpMNE2w\nXJC2eQ+hZBRiCJzMnaL3QPth3IVILVqY2aIoVKVMNJi3FrLeB3NyN8M6GfFy\nbklqBsQI9HNO3irqQhhHetJyAQnjfdbZMLaUhlh2+vPD17jW5QgFpFHJASoM\nzXla7MYMLlWShBOYRdlOKqsdqU7cO4/JGp/KCqQa+WLMpbzBQJ69/AmwdxP4\ndgjzAFHx+HQ70GvYWQxUkmy9dERcgV/HmUWka9kc7upuDPhvOF16EwgOKdWT\niT0BRM5PzQzU3/eFSu6S4qd8jVKqYvtfl0BrCPezFg==
         app: foaming-horse
+        strategy: git
       openshiftdpl:
         user: crobe03@ca.com 
         password: enc:QB023AdBygSCegpG2t8M06FpB3YnEUfQTR1iXt6c3IxNdUhTrp1gREjBLCX0\nketY6HFPD8uVV9d1UrWEgd8eilHvSjz+zsbxNrCuLdEyc/KOWmVtxW8R8iao\n0q0enq/TPvh+DX+29QEi+e9TG0FzJNF0FGjEanMd03ycOYkrSV5j4cNE/26r\ndcTDqSqynPtL3yl5BymUsjsPJQWV5Rn14pddPXn2FtZ6FvY4LsMJ3h0gnXU/\nxn5P9VwJGtLpt/t4jfJERAlhfjHmqb4iL1FFocAqwTA3hFo989TR+puyx4N8\noQY2SjkD5ftD5NzBCik/SoV02TilnzJXnmYg71GKpg==
@@ -30,6 +31,7 @@ services:
       herokudpl:
         api_key: enc:GGoKv8rMo/vntT+n03j3l5ggvVD9hVfR7UlZ8nruzbLLfA2wKKNJ7lpMNE2w\nXJC2eQ+hZBRiCJzMnaL3QPth3IVILVqY2aIoVKVMNJi3FrLeB3NyN8M6GfFy\nbklqBsQI9HNO3irqQhhHetJyAQnjfdbZMLaUhlh2+vPD17jW5QgFpFHJASoM\nzXla7MYMLlWShBOYRdlOKqsdqU7cO4/JGp/KCqQa+WLMpbzBQJ69/AmwdxP4\ndgjzAFHx+HQ70GvYWQxUkmy9dERcgV/HmUWka9kc7upuDPhvOF16EwgOKdWT\niT0BRM5PzQzU3/eFSu6S4qd8jVKqYvtfl0BrCPezFg==
         app: bouncing-horse
+        strategy: git
       openshiftdpl:
         user: crobe03@ca.com 
         password: enc:QB023AdBygSCegpG2t8M06FpB3YnEUfQTR1iXt6c3IxNdUhTrp1gREjBLCX0\nketY6HFPD8uVV9d1UrWEgd8eilHvSjz+zsbxNrCuLdEyc/KOWmVtxW8R8iao\n0q0enq/TPvh+DX+29QEi+e9TG0FzJNF0FGjEanMd03ycOYkrSV5j4cNE/26r\ndcTDqSqynPtL3yl5BymUsjsPJQWV5Rn14pddPXn2FtZ6FvY4LsMJ3h0gnXU/\nxn5P9VwJGtLpt/t4jfJERAlhfjHmqb4iL1FFocAqwTA3hFo989TR+puyx4N8\noQY2SjkD5ftD5NzBCik/SoV02TilnzJXnmYg71GKpg==
